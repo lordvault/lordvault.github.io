@@ -1,4 +1,57 @@
 baseURL = 'https://lordvault.github.io/'
 languageCode = 'en-us'
 title = 'Lordvault Site'
-theme = 'ananke'
+theme = 'hello-friend-ng'
+paginate = 10
+
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[params]
+  homeSubtitle = "My page to post related content about smart-home and programing stuff."
+  disableReadOtherPosts = false
+  enableSharingButtons = true
+  description = "My page to post related content about smart-home and programing stuff "
+
+  [params.footer]
+    trademark = 2024
+    rss = true
+    copyright = true
+    author = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a> and Themed by &#10084; <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
+
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd /home/"
+    logoHomeLink = "/"
+
+  [params.author]
+    name = "Luis Medina"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/lordvault"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/medinaluisgerardo/"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"

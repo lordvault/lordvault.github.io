@@ -23,3 +23,7 @@ hugo new content content/posts/my-first-post.md
 # hugo server --buildDrafts
 
 ```
+
+You need to configure also github-actions to deploy from your branch to github pages. You can see here the documentation and the workflow you need to use. [Deploy Github Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/) 
+
+Also im using this [Theme](https://themes.gohugo.io/themes/hugo-theme-hello-friend-ng/) created by [Djordje Atlialp](https://github.com/rhazdon)
