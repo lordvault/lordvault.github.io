@@ -1,0 +1,4 @@
+baseURL = 'https://lordvault.github.io/'
+languageCode = 'en-us'
+title = 'Lordvault Site'
+theme = 'ananke'

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lordvault Site</title>
+    <link>https://lordvault.github.io/</link>
+    <description>Recent content on Lordvault Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Jun 2024 13:33:51 -0500</lastBuildDate><atom:link href="https://lordvault.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://lordvault.github.io/posts/my-first-post/</link>
+      <pubDate>Wed, 19 Jun 2024 13:33:51 -0500</pubDate>
+      
+      <guid>https://lordvault.github.io/posts/my-first-post/</guid>
+      <description>Introduction This is my first post using Hugo as platform. The idea its to post here my discoveries about home-smart and also from my programing life.
+So as start im going to post about Hugo. This is a tool to create static content, that means no javascript o compilation when any one do a request to the server.
+So all you need its a little of time, learn MD and use github pages.</description>
+    </item>
+    
+  </channel>
+</rss>
