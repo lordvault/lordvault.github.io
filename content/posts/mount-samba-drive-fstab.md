@@ -1,7 +1,7 @@
 ---
 title: "Mount Samba Drive Fstab"
 date: 2025-05-21T13:26:42-05:00
-draft: true
+draft: false
 ---
 
 ## How to mount a Network Drive with fstab
